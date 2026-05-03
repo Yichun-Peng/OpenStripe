@@ -1,7 +1,7 @@
 ---
 
-# OpenStripe
-# OpenStripe: Autonomous Open-set Discovery of Amur Tiger Individuals via Multi-agent Stripe Reconstruction
+OpenStripe
+OpenStripe: Autonomous Open-set Discovery of Amur Tiger Individuals via Multi-agent Stripe Reconstruction
 
 This is the official open-source repository for the paper: **"Autonomous open-set discovery of Amur tiger individuals via multi-agent stripe reconstruction"**.
 
