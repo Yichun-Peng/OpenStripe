@@ -1,6 +1,3 @@
----
-
-OpenStripe
 OpenStripe: Autonomous Open-set Discovery of Amur Tiger Individuals via Multi-agent Stripe Reconstruction
 
 This is the official open-source repository for the paper: "Autonomous open-set discovery of Amur tiger individuals via multi-agent stripe reconstruction".
@@ -27,5 +24,3 @@ numpy, scipy, matplotlib, seaborn, scikit-learn
 Citation
 If you use this project in your research, please cite our paper:
 > Yincalos Peng, et al. "Autonomous open-set discovery of Amur tiger individuals via multi-agent stripe reconstruction." 
-
----
