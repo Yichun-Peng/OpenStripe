@@ -1,0 +1,10 @@
+panel,metric,method,mean,displayed_error_bar_length
+a,mIoU_percent,GrabCut,65.4,5.2
+a,mIoU_percent,Mask R-CNN,83.5,3.8
+a,mIoU_percent,OpenStripe (Ours),91.2,1.5
+b,PCK_at_0.1_percent,TPS,71.8,6.1
+b,PCK_at_0.1_percent,STN,86.2,4.3
+b,PCK_at_0.1_percent,OpenStripe (Ours),95.4,1.6
+b,NME_percent,TPS,8.5,1.2
+b,NME_percent,STN,5.2,0.8
+b,NME_percent,OpenStripe (Ours),3.1,0.4

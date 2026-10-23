@@ -1,0 +1,26 @@
+[
+  {
+    "example": "A-plus",
+    "endpoints": 42,
+    "bifurcations": 11,
+    "count_status": "transcribed from the illustration"
+  },
+  {
+    "example": "B-plus",
+    "endpoints": 41,
+    "bifurcations": 13,
+    "count_status": "transcribed from the illustration"
+  },
+  {
+    "example": "C-plus",
+    "endpoints": 47,
+    "bifurcations": 9,
+    "count_status": "transcribed from the illustration"
+  },
+  {
+    "example": "D-plus",
+    "endpoints": 58,
+    "bifurcations": 9,
+    "count_status": "transcribed from the illustration"
+  }
+]

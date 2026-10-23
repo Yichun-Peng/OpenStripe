@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S067",
+  "identity_id": "T19",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S067.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "5a1848c2d92e468a47663feac7b9eae2b8bfc31c64b1ac5ee4a8ef303db4c7d8",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S067-01",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 699.8837936143549,
+      "y_pixel": 263.01850657962797,
+      "x_normalized": 0.6834802672015184,
+      "y_normalized": 0.25685401033166794,
+      "body_x": 0.6834802672015184,
+      "body_y": 0.25685401033166794,
+      "area_pixel2": 771.9051991199523,
+      "radius_pixel": 52.48677693125575,
+      "bbox_xywh": [
+        658,
+        231,
+        83,
+        64
+      ]
+    },
+    {
+      "annotation_id": "S067-02",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 492.70009938514613,
+      "y_pixel": 271.54047510101935,
+      "x_normalized": 0.48115244080580677,
+      "y_normalized": 0.2651762452158392,
+      "body_x": 0.48115244080580677,
+      "body_y": 0.2651762452158392,
+      "area_pixel2": 1035.649452840973,
+      "radius_pixel": 64.71284624855024,
+      "bbox_xywh": [
+        456,
+        219,
+        74,
+        106
+      ]
+    },
+    {
+      "annotation_id": "S067-03",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 578.5631284398999,
+      "y_pixel": 265.24797644782467,
+      "x_normalized": 0.5650030551170897,
+      "y_normalized": 0.2590312269998288,
+      "body_x": 0.5650030551170897,
+      "body_y": 0.2590312269998288,
+      "area_pixel2": 596.9308984995864,
+      "radius_pixel": 50.40215398238949,
+      "bbox_xywh": [
+        556,
+        220,
+        46,
+        90
+      ]
+    },
+    {
+      "annotation_id": "S067-04",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 543.5342186483949,
+      "y_pixel": 410.8777678187413,
+      "x_normalized": 0.5307951353988232,
+      "y_normalized": 0.40124782013548954,
+      "body_x": 0.5307951353988232,
+      "body_y": 0.40124782013548954,
+      "area_pixel2": 1751.9665310404766,
+      "radius_pixel": 115.02626561525918,
+      "bbox_xywh": [
+        512,
+        296,
+        71,
+        219
+      ]
+    },
+    {
+      "annotation_id": "S067-05",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 628.0518581931799,
+      "y_pixel": 397.8112875250608,
+      "x_normalized": 0.6133318927667772,
+      "y_normalized": 0.38848758547369217,
+      "body_x": 0.6133318927667772,
+      "body_y": 0.38848758547369217,
+      "area_pixel2": 2006.9877257862886,
+      "radius_pixel": 107.25153902001333,
+      "bbox_xywh": [
+        572,
+        318,
+        113,
+        182
+      ]
+    }
+  ]
+}

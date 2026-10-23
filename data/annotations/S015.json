@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S015",
+  "identity_id": "T05",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S015.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "4ea1239ba2306b118a0f1f5e769208d5a01bc7488a40df8e538ff499eb262f43",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "strictly_aligned_unannotated"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      4,
+      266,
+      1019,
+      758
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S015-01",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 450.86240094701634,
+      "y_pixel": 482.8201266346653,
+      "x_normalized": 0.44029531342482064,
+      "y_normalized": 0.47150402991666535,
+      "body_x": 0.4402585231005087,
+      "body_y": 0.4406913142981002,
+      "area_pixel2": 428.431840871727,
+      "radius_pixel": 30.04447545456695,
+      "bbox_xywh": [
+        430,
+        462,
+        43,
+        42
+      ]
+    },
+    {
+      "annotation_id": "S015-02",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 581.536086866302,
+      "y_pixel": 391.9725685803858,
+      "x_normalized": 0.567906334830373,
+      "y_normalized": 0.38278571150428303,
+      "body_x": 0.5690010708042383,
+      "body_y": 0.2560418060576948,
+      "area_pixel2": 995.4673546188418,
+      "radius_pixel": 71.96753623669274,
+      "bbox_xywh": [
+        553,
+        326,
+        57,
+        132
+      ]
+    },
+    {
+      "annotation_id": "S015-03",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 773.8718742701546,
+      "y_pixel": 413.59214029132175,
+      "x_normalized": 0.7557342522169479,
+      "y_normalized": 0.4038985745032439,
+      "body_x": 0.7584944574090193,
+      "body_y": 0.29998402498236126,
+      "area_pixel2": 747.5583462238393,
+      "radius_pixel": 53.531851342699404,
+      "bbox_xywh": [
+        752,
+        365,
+        45,
+        97
+      ]
+    },
+    {
+      "annotation_id": "S015-04",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 553.6576212433732,
+      "y_pixel": 470.0107286585845,
+      "x_normalized": 0.5406812707454817,
+      "y_normalized": 0.45899485220564895,
+      "body_x": 0.54153460221022,
+      "body_y": 0.4146559525580986,
+      "area_pixel2": 677.4677083957977,
+      "radius_pixel": 57.44127325249783,
+      "bbox_xywh": [
+        522,
+        422,
+        74,
+        88
+      ]
+    },
+    {
+      "annotation_id": "S015-05",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 585.6614390996435,
+      "y_pixel": 439.3221321652572,
+      "x_normalized": 0.5719349991207456,
+      "y_normalized": 0.42902551969263397,
+      "body_x": 0.5730654572410281,
+      "body_y": 0.3522807564334496,
+      "area_pixel2": 78.42939538314624,
+      "radius_pixel": 14.817844016554414,
+      "bbox_xywh": [
+        577,
+        428,
+        17,
+        24
+      ]
+    }
+  ]
+}

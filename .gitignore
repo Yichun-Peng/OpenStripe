@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+generated/
+build/
+*.pth
+*.pt
+*.safetensors

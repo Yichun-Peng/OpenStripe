@@ -1,0 +1,85 @@
+{
+  "weights_included": false,
+  "automatic_downloads": false,
+  "dino_extraction_entry_point": "code/figure3/extract_from_public_inputs.py --dino-weights <checkpoint>",
+  "other_encoder_inference_implemented_by_this_module": false,
+  "weights": [
+    {
+      "name": "dinov2_vits14_pretrain.pth",
+      "filename": "dinov2_vits14_pretrain.pth",
+      "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+      "bytes": 88283115,
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9"
+    },
+    {
+      "name": "dinov2_vitb14_pretrain.pth",
+      "filename": "dinov2_vitb14_pretrain.pth",
+      "url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vitb14/dinov2_vitb14_pretrain.pth",
+      "bytes": 346378731,
+      "sha256": "0b8b82f85de91b424aded121c7e1dcc2b7bc6d0adeea651bf73a13307fad8c73"
+    },
+    {
+      "name": "resnet50-0676ba61.pth",
+      "filename": "resnet50-0676ba61.pth",
+      "url": "https://download.pytorch.org/models/resnet50-0676ba61.pth",
+      "bytes": 102530333,
+      "sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a"
+    },
+    {
+      "name": "resnet50-11ad3fa6.pth",
+      "filename": "resnet50-11ad3fa6.pth",
+      "url": "https://download.pytorch.org/models/resnet50-11ad3fa6.pth",
+      "bytes": 102540417,
+      "sha256": "11ad3fa62ca79e40addfd354a8ec4b7c75143b3038b8d2a807fbc68deab379ca"
+    },
+    {
+      "name": "efficientnet_b0_rwightman-7f5810bc.pth",
+      "filename": "efficientnet_b0_rwightman-7f5810bc.pth",
+      "url": "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth",
+      "bytes": 21444401,
+      "sha256": "7f5810bc96def8f7552d5b7e68d53c4786f81167d28291b21c0d90e1fca14934"
+    },
+    {
+      "name": "BVRA__MegaDescriptor-L-384",
+      "url": "https://huggingface.co/BVRA/MegaDescriptor-L-384/resolve/33b3c6f4ee0c386a4126cc3dcd23843920613fa1/pytorch_model.bin",
+      "version": "33b3c6f4ee0c386a4126cc3dcd23843920613fa1",
+      "bytes": 1935177938,
+      "sha256": "ccfe757f50f7984a115ffe00921cd4c09e260e645215463b23814586040227a3"
+    },
+    {
+      "name": "BVRA__MegaDescriptor-T-224",
+      "url": "https://huggingface.co/BVRA/MegaDescriptor-T-224/resolve/3ea58ff6c6195bc748bb86c111ff40c32bdddcba/pytorch_model.bin",
+      "version": "3ea58ff6c6195bc748bb86c111ff40c32bdddcba",
+      "bytes": 204267588,
+      "sha256": "62f53e6335d5f8ea4d764c91b442f8daa5ce7f316d388cc890e06c943218190c"
+    },
+    {
+      "name": "conservationxlabs__miewid-msv3",
+      "url": "https://huggingface.co/conservationxlabs/miewid-msv3/resolve/4f1d7f2b521149e5fe34bb85f377248ce9971a7d/model.safetensors",
+      "version": "4f1d7f2b521149e5fe34bb85f377248ce9971a7d",
+      "bytes": 205809924,
+      "sha256": "adff92b39678f37eb74861c6399a741639a8907ec2382738e903d6120727b348"
+    },
+    {
+      "name": "timm__vit_base_patch16_siglip_224.v2_webli",
+      "url": "https://huggingface.co/timm/vit_base_patch16_siglip_224.v2_webli/resolve/4c3661e5ac879a276ddc5ddc6d3f0ecc78fd5d82/model.safetensors",
+      "version": "4c3661e5ac879a276ddc5ddc6d3f0ecc78fd5d82",
+      "bytes": 371551936,
+      "sha256": "9106b0d8d9d02ea90fc3571fffd1557cf444736f695ee40b1e57c856bc3d9494"
+    },
+    {
+      "name": "timm__vit_base_patch32_clip_224.laion2b",
+      "url": "https://huggingface.co/timm/vit_base_patch32_clip_224.laion2b/resolve/1a75b999ab19e05ff174ec9e96cd71c7082d62f1/model.safetensors",
+      "version": "1a75b999ab19e05ff174ec9e96cd71c7082d62f1",
+      "bytes": 351413080,
+      "sha256": "0db4cc61c2d7c9f6227591bce3440494dd7ce826a92447c4fe3a4881a44419f2"
+    },
+    {
+      "name": "ConvNeXt_Tiny",
+      "url": "https://download.pytorch.org/models/convnext_tiny-983f1562.pth",
+      "version": "torchvision_IMAGENET1K_V1",
+      "bytes": 114419221,
+      "sha256": "983f1562536e84ff750a1576fb08e54de751dbf2e17c0d8a4a13704341fdcd3d"
+    }
+  ]
+}

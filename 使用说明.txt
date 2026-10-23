@@ -1,0 +1,38 @@
+OpenStripe 正文图数据与复现代码
+
+1. 数据
+100 个样本、28 个参考个体，每个样本有两种无标注重构图。
+images_unannotated：common-BW，供聚类使用，与 JSON 标注共用画布。
+images_unannotated_src：原生成分辨率 SRC，供形态测量使用。
+annotations：100 个逐样本 JSON，包含 316 个 B/F/I/C 标记。
+samples.csv：样本、个体、文件、尺寸、标记数量与校验值的对应表。
+JSON 使用 common-BW 坐标，形态测量 ROI 使用 SRC 坐标。
+legacy_figshare_v1：data_A.npz、data_BC.npz。
+
+2. 安装
+使用 Python 3.10 或更高版本。
+python -m pip install -r requirements.txt
+
+3. 绘图
+python reproduce.py --list
+python reproduce.py --figure 3 --panel c2
+python reproduce.py --all
+共 15 个非空间绘图入口，并生成 Fig2–3 整图；支持 PDF、PNG、SVG。
+--output-dir 指定输出目录，--formats 指定格式，--dpi 指定 PNG 分辨率。
+panel_manifest.csv 提供逐子图的数据路径与命令。
+
+4. 计算入口
+Fig1：流程示意图、重构图示例、JSON 数据卡与示意聚类点。
+Fig2a、b：按汇总均值和绘图误差棒长度绘制柱状图。
+Fig2c：common-BW/SRC 图像对照与标记数量。
+Fig3：聚类汇总、边际增益、划分指标、个体 jackknife 与共识后端。
+特征提取入口支持几何、HOG、局部上下文和 DINOv2；模型权重由命令参数指定。
+形态性状提取仅使用重构斑纹及图像内 ROI；命令见 code/figure4/README.md。
+因地缘政治敏感性及东北虎等濒危物种保护需求，原始相机照片及所有地理空间数据均不公开。
+
+5. 文件校验
+python scripts/validate_release.py
+SHA256SUMS.txt 提供文件校验值。
+
+6. 许可证
+代码 MIT；数据 CC BY 4.0。第三方代码保留对应许可证。

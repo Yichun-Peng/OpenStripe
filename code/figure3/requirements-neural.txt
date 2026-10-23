@@ -1,0 +1,4 @@
+# Optional: add to requirements-features.txt for real DINOv2 inference
+torch==2.6.0
+torchvision==0.21.0
+timm==1.0.15

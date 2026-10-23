@@ -1,0 +1,17 @@
+{
+  "paired_rows": [
+    "S001",
+    "S002",
+    "S003",
+    "S009",
+    "S027",
+    "S093"
+  ],
+  "structural_records": [
+    "S009",
+    "S027",
+    "S079",
+    "S093"
+  ],
+  "selection": "S001/S002/S003 share reference identity T01; the other gallery rows and four structural cards cover B/F/I/C jointly."
+}

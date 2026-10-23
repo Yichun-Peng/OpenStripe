@@ -1,0 +1,39 @@
+{
+  "figure": "Figure 1",
+  "kind": "workflow_schematic",
+  "public_rendering": "Unannotated stripe images and JSON structural-data cards.",
+  "examples": [
+    "S016",
+    "S066"
+  ],
+  "roles": [
+    {
+      "title": "Parsing & alignment",
+      "description": "Pose / foreground",
+      "method": "HRNet"
+    },
+    {
+      "title": "Stripe reconstruction",
+      "description": "Canonical stripe plane",
+      "method": "TPS"
+    },
+    {
+      "title": "Feature extraction",
+      "description": "B/F/I/C localization",
+      "method": "Structural markers"
+    },
+    {
+      "title": "Annotation correction",
+      "description": "Vision-language checking",
+      "method": "VLM"
+    }
+  ],
+  "annotation_types": {
+    "B": "breakpoint",
+    "F": "bifurcation",
+    "I": "irregular",
+    "C": "round"
+  },
+  "clustering_dots": "seeded schematic clustering dots",
+  "legacy_record": "10.6084/m9.figshare.32149882.v1"
+}

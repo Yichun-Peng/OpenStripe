@@ -1,0 +1,264 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "annotation.schema.json",
+  "title": "OpenStripe main-analysis annotation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "identity_id",
+    "source_version",
+    "image",
+    "coordinate_system",
+    "source_provenance",
+    "annotations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "sample_id": {
+      "type": "string",
+      "pattern": "^S[0-9]{3}$"
+    },
+    "identity_id": {
+      "type": "string",
+      "pattern": "^T[0-9]{2}$"
+    },
+    "source_version": {
+      "const": "main_clustering_components316"
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "file",
+        "width",
+        "height",
+        "sha256",
+        "representation",
+        "base_origin"
+      ],
+      "properties": {
+        "file": {
+          "type": "string",
+          "pattern": "^data/images_unannotated/S[0-9]{3}\\.png$"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "representation": {
+          "const": "common-BW unmarked stripe canvas"
+        },
+        "base_origin": {
+          "enum": [
+            "shared_annotation_inpaint",
+            "strictly_aligned_unannotated"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "coordinate_system": {
+      "type": "object",
+      "required": [
+        "origin",
+        "x_direction",
+        "y_direction",
+        "pixel_indexing",
+        "normalization",
+        "annotation_to_public_image_transform",
+        "body_bbox_xyxy",
+        "body_bbox_bounds",
+        "body_normalization"
+      ],
+      "properties": {
+        "origin": {
+          "const": "top-left pixel center"
+        },
+        "x_direction": {
+          "const": "right"
+        },
+        "y_direction": {
+          "const": "down"
+        },
+        "pixel_indexing": {
+          "const": "zero-based continuous coordinates"
+        },
+        "normalization": {
+          "type": "string"
+        },
+        "annotation_to_public_image_transform": {
+          "const": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              1
+            ]
+          ]
+        },
+        "body_bbox_xyxy": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          },
+          "minItems": 4,
+          "maxItems": 4
+        },
+        "body_bbox_bounds": {
+          "const": "upper bounds exclusive"
+        },
+        "body_normalization": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "source_provenance": {
+      "type": "object",
+      "required": [
+        "marker_table_sha256",
+        "point_geometry_sha256",
+        "original_canvas_width",
+        "original_canvas_height",
+        "labels_changed",
+        "coordinates_changed",
+        "source_canvas",
+        "not_mapped_to_SRC"
+      ],
+      "properties": {
+        "marker_table_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "point_geometry_sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "original_canvas_width": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "original_canvas_height": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "labels_changed": {
+          "const": false
+        },
+        "coordinates_changed": {
+          "const": false
+        },
+        "source_canvas": {
+          "type": "string"
+        },
+        "not_mapped_to_SRC": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "annotations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "annotation_id",
+          "type",
+          "marker_type",
+          "x_pixel",
+          "y_pixel",
+          "x_normalized",
+          "y_normalized",
+          "body_x",
+          "body_y",
+          "area_pixel2",
+          "radius_pixel",
+          "bbox_xywh"
+        ],
+        "properties": {
+          "annotation_id": {
+            "type": "string",
+            "pattern": "^S[0-9]{3}-[0-9]{2}$"
+          },
+          "type": {
+            "enum": [
+              "B",
+              "F",
+              "I",
+              "C"
+            ]
+          },
+          "marker_type": {
+            "enum": [
+              "breakpoint",
+              "bifurcation",
+              "irregular",
+              "round"
+            ]
+          },
+          "x_pixel": {
+            "type": "number",
+            "minimum": 0
+          },
+          "y_pixel": {
+            "type": "number",
+            "minimum": 0
+          },
+          "x_normalized": {
+            "type": "number",
+            "minimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "y_normalized": {
+            "type": "number",
+            "minimum": 0,
+            "exclusiveMaximum": 1
+          },
+          "body_x": {
+            "type": "number"
+          },
+          "body_y": {
+            "type": "number"
+          },
+          "area_pixel2": {
+            "type": "number",
+            "minimum": 0
+          },
+          "radius_pixel": {
+            "type": "number",
+            "minimum": 0
+          },
+          "bbox_xywh": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

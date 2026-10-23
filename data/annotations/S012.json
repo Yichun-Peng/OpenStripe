@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S012",
+  "identity_id": "T04",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S012.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c8a7447cc0dca694ec98b8169e682a7b6353e28518e9cd31f3f6057009c92f29",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      24,
+      276,
+      1007,
+      792
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S012-01",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 598.0503027295285,
+      "y_pixel": 453.43698263027295,
+      "x_normalized": 0.5840334987593052,
+      "y_normalized": 0.44280955334987593,
+      "body_x": 0.5839779274969772,
+      "body_y": 0.343870121376498,
+      "area_pixel2": 1502.674556213018,
+      "radius_pixel": 53.20568550835711,
+      "bbox_xywh": [
+        565,
+        413,
+        67,
+        83
+      ]
+    }
+  ]
+}

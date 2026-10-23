@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "n_images": 100,
+  "n_identities": 28,
+  "replicates": 1999,
+  "seed": 20261015,
+  "partitions_fixed": true,
+  "comparator": "maximum across 49 baselines, reselected within each paired deletion/resample",
+  "interval": "two-sided 95% delete-one-reference-identity jackknife t interval; 27 degrees of freedom",
+  "bootstrap_role": "fixed-partition identity-bootstrap diagnostic",
+  "inferential_p_value_calculated": true,
+  "baseline_configurations_are_not_independent_replicates": true,
+  "metrics": [
+    {
+      "metric": "clustering_accuracy",
+      "OpenStripe": 0.9,
+      "best_baseline": 0.43,
+      "best_baseline_condition": "BW_COMBO_ANIMAL_SNF",
+      "delta_best": 0.47000000000000003,
+      "ci_low": 0.3404186500675789,
+      "ci_high": 0.5995813499324212,
+      "jackknife_se": 0.0631540221727014,
+      "ci_excludes_zero": true,
+      "bootstrap_diagnostic_ci": [
+        0.375,
+        0.54
+      ],
+      "t_statistic": 7.4421229848945325,
+      "degrees_of_freedom": 27,
+      "p_raw": 5.258677567755064e-08,
+      "stars": "***",
+      "p_display": "p < 0.001 ***",
+      "delta_display": "Δ +0.47"
+    },
+    {
+      "metric": "ari",
+      "OpenStripe": 0.8468345813478557,
+      "best_baseline": 0.13955403894804966,
+      "best_baseline_condition": "BW_COMBO_ANIMAL_SNF",
+      "delta_best": 0.7072805423998061,
+      "ci_low": 0.5251398766401032,
+      "ci_high": 0.889421208159509,
+      "jackknife_se": 0.08876983956362415,
+      "ci_excludes_zero": true,
+      "bootstrap_diagnostic_ci": [
+        0.39603730864116865,
+        0.6978420082136003
+      ],
+      "t_statistic": 7.967577117145466,
+      "degrees_of_freedom": 27,
+      "p_raw": 1.4548885511697305e-08,
+      "stars": "***",
+      "p_display": "p < 0.001 ***",
+      "delta_display": "Δ +0.71"
+    },
+    {
+      "metric": "nmi",
+      "OpenStripe": 0.9651616452881111,
+      "best_baseline": 0.7589522950783172,
+      "best_baseline_condition": "BW_MEGAT224_CARD",
+      "delta_best": 0.20620935020979392,
+      "ci_low": 0.15060759474675514,
+      "ci_high": 0.2618111056728327,
+      "jackknife_se": 0.027098610248968424,
+      "ci_excludes_zero": true,
+      "bootstrap_diagnostic_ci": [
+        0.1629757130038422,
+        0.24256318648252964
+      ],
+      "t_statistic": 7.609591352296161,
+      "degrees_of_freedom": 27,
+      "p_raw": 3.478213320107824e-08,
+      "stars": "***",
+      "p_display": "p < 0.001 ***",
+      "delta_display": "Δ +0.21"
+    },
+    {
+      "metric": "bcubed_f1",
+      "OpenStripe": 0.9222760074694295,
+      "best_baseline": 0.44759371727748687,
+      "best_baseline_condition": "BW_EFFB0",
+      "delta_best": 0.47468229019194264,
+      "ci_low": 0.3856984500957379,
+      "ci_high": 0.5636661302881474,
+      "jackknife_se": 0.04336802644345495,
+      "ci_excludes_zero": true,
+      "bootstrap_diagnostic_ci": [
+        0.355820722396808,
+        0.4977328983466033
+      ],
+      "t_statistic": 10.94544366252989,
+      "degrees_of_freedom": 27,
+      "p_raw": 1.97494412769179e-11,
+      "stars": "***",
+      "p_display": "p < 0.001 ***",
+      "delta_display": "Δ +0.47"
+    }
+  ],
+  "p_method": "Approximate two-sided Student t test: observed best-baseline delta / paired delete-one-reference-identity jackknife SE; df=27",
+  "displayed_p": "raw, unadjusted",
+  "inference_scope": "fixed fitted partitions and development cohort; metric-wise baseline maximum reselected within each identity deletion",
+  "displayed_interval": false
+}

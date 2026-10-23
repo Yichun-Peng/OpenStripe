@@ -1,0 +1,152 @@
+[
+  {
+    "figure": 1,
+    "panel": "workflow",
+    "title": "Multi-agent workflow",
+    "script": "code/figure1/render.py",
+    "data_inputs": "data/figure1/workflow.json;data/annotations/S016.json;data/annotations/S066.json;data/images_unannotated/S016.png;data/images_unannotated/S066.png",
+    "command": "python reproduce.py --figure 1 --panel workflow",
+    "reproduction_scope": "Workflow schematic drawing from images and JSON cards",
+    "public_display_difference": "Unannotated patterns, structural-data cards and schematic clustering dots"
+  },
+  {
+    "figure": 2,
+    "panel": "a",
+    "title": "Foreground segmentation",
+    "script": "code/figure2/render.py",
+    "data_inputs": "data/figure2/archived_plot_values.json",
+    "command": "python reproduce.py --figure 2 --panel a",
+    "reproduction_scope": "Bar plotting from summary means and displayed error-bar lengths",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 2,
+    "panel": "b",
+    "title": "Pose alignment",
+    "script": "code/figure2/render.py",
+    "data_inputs": "data/figure2/archived_plot_values.json",
+    "command": "python reproduce.py --figure 2 --panel b",
+    "reproduction_scope": "Bar plotting from summary means and displayed error-bar lengths",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 2,
+    "panel": "c",
+    "title": "Reconstruction and annotation-data gallery",
+    "script": "code/figure2/render.py",
+    "data_inputs": "data/figure2/public_gallery_samples.json;data/samples.csv;data/annotations;data/images_unannotated;data/images_unannotated_src",
+    "command": "python reproduce.py --figure 2 --panel c",
+    "reproduction_scope": "Paired reconstruction gallery and JSON annotation-count cards",
+    "public_display_difference": "SRC/common-BW pairs and structural counts"
+  },
+  {
+    "figure": 3,
+    "panel": "a",
+    "title": "Input-by-pipeline ablation heatmaps",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/ablation_17x9_four_metrics.csv;data/figure3/ablation_all_runs_recomputed.csv;data/figure3/method_display_order.csv",
+    "command": "python reproduce.py --figure 3 --panel a",
+    "reproduction_scope": "Redraw and recompute run summaries; source pipelines frozen",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "b",
+    "title": "Annotation-count response",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/category_count_equal_weight_means.csv;data/figure3/ablation_all_runs_recomputed.csv",
+    "command": "python reproduce.py --figure 3 --panel b",
+    "reproduction_scope": "Redraw and recompute equal-weight means from saved consensus run results",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "c1",
+    "title": "Accuracy marginal annotation gains",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/annotation_28_paired_additions.csv;data/figure3/annotation_contribution_means.csv;data/figure3/ablation_all_runs_recomputed.csv",
+    "command": "python reproduce.py --figure 3 --panel c1",
+    "reproduction_scope": "Redraw and recompute paired gains from saved run scores",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "c2",
+    "title": "ARI marginal annotation gains",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/annotation_28_paired_additions.csv;data/figure3/annotation_contribution_means.csv;data/figure3/ablation_all_runs_recomputed.csv",
+    "command": "python reproduce.py --figure 3 --panel c2",
+    "reproduction_scope": "Redraw and recompute paired gains from saved run scores",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "c3",
+    "title": "NMI marginal annotation gains",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/annotation_28_paired_additions.csv;data/figure3/annotation_contribution_means.csv;data/figure3/ablation_all_runs_recomputed.csv",
+    "command": "python reproduce.py --figure 3 --panel c3",
+    "reproduction_scope": "Redraw and recompute paired gains from saved run scores",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "c4",
+    "title": "B3 F1 marginal annotation gains",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/annotation_28_paired_additions.csv;data/figure3/annotation_contribution_means.csv;data/figure3/ablation_all_runs_recomputed.csv",
+    "command": "python reproduce.py --figure 3 --panel c4",
+    "reproduction_scope": "Redraw and recompute paired gains from saved run scores",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "d1",
+    "title": "Accuracy baseline comparison",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/baseline_all_50_conditions_recomputed.csv;data/figure3/paired_comparison_inputs.npz;data/figure3/paired_comparison.json",
+    "command": "python reproduce.py --figure 3 --panel d1",
+    "reproduction_scope": "Metrics and identity-jackknife tests from saved prediction partitions",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "d2",
+    "title": "ARI baseline comparison",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/baseline_all_50_conditions_recomputed.csv;data/figure3/paired_comparison_inputs.npz;data/figure3/paired_comparison.json",
+    "command": "python reproduce.py --figure 3 --panel d2",
+    "reproduction_scope": "Metrics and identity-jackknife tests from saved prediction partitions",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "d3",
+    "title": "NMI baseline comparison",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/baseline_all_50_conditions_recomputed.csv;data/figure3/paired_comparison_inputs.npz;data/figure3/paired_comparison.json",
+    "command": "python reproduce.py --figure 3 --panel d3",
+    "reproduction_scope": "Metrics and identity-jackknife tests from saved prediction partitions",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "d4",
+    "title": "B3 F1 baseline comparison",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/baseline_all_50_conditions_recomputed.csv;data/figure3/paired_comparison_inputs.npz;data/figure3/paired_comparison.json",
+    "command": "python reproduce.py --figure 3 --panel d4",
+    "reproduction_scope": "Metrics and identity-jackknife tests from saved prediction partitions",
+    "public_display_difference": ""
+  },
+  {
+    "figure": 3,
+    "panel": "e",
+    "title": "Consensus ring tree",
+    "script": "code/figure3/render.py",
+    "data_inputs": "data/figure3/automatic_linkage_display_order.npy;data/figure3/tree_sample_labels.csv;data/figure3/BFIC_automatic_partition.npz;data/figure3/BFIC_consensus_source_partitions.npz;data/figure3/consensus_sources.json;data/images_unannotated",
+    "command": "python reproduce.py --figure 3 --panel e",
+    "reproduction_scope": "Native linkage tree; optional consensus-backend refit from frozen source memberships",
+    "public_display_difference": "Unannotated reconstruction thumbnails"
+  }
+]

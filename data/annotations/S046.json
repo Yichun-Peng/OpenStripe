@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S046",
+  "identity_id": "T13",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S046.png",
+    "width": 1024,
+    "height": 575,
+    "sha256": "35b7004a8160d0564e26361d1b85af6e705a294f786f2cabd90c265b8f23b4d5",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      6,
+      0,
+      1024,
+      575
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 575,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S046-01",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 331.28981981323506,
+      "y_pixel": 188.04289173921575,
+      "x_normalized": 0.32352521466136236,
+      "y_normalized": 0.3270311160682013,
+      "body_x": 0.31953813341182224,
+      "body_y": 0.3270311160682013,
+      "area_pixel2": 612.5224019344585,
+      "radius_pixel": 36.057808354926905,
+      "bbox_xywh": [
+        306,
+        163,
+        51,
+        51
+      ]
+    },
+    {
+      "annotation_id": "S046-02",
+      "type": "I",
+      "marker_type": "irregular",
+      "x_pixel": 670.2668877381805,
+      "y_pixel": 153.0455154030084,
+      "x_normalized": 0.6545575075568169,
+      "y_normalized": 0.26616611374436244,
+      "body_x": 0.6525215007251282,
+      "body_y": 0.26616611374436244,
+      "area_pixel2": 1307.5491315927932,
+      "radius_pixel": 73.74475296481391,
+      "bbox_xywh": [
+        620,
+        100,
+        101,
+        107
+      ]
+    }
+  ]
+}

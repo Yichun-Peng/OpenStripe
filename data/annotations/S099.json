@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S099",
+  "identity_id": "T28",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S099.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "b7a52f6997d4b0b3d1c5cbce005d05e678a9d2208f08747112999d75c2a0d68f",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S099-01",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 507.52630150497407,
+      "y_pixel": 496.2710953150243,
+      "x_normalized": 0.49563115381345124,
+      "y_normalized": 0.4846397415185784,
+      "body_x": 0.49563115381345124,
+      "body_y": 0.4846397415185784,
+      "area_pixel2": 406.220883649432,
+      "radius_pixel": 32.02233268533405,
+      "bbox_xywh": [
+        485,
+        474,
+        45,
+        45
+      ]
+    },
+    {
+      "annotation_id": "S099-02",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 354.98196127924473,
+      "y_pixel": 500.13160777665087,
+      "x_normalized": 0.34666207156176243,
+      "y_normalized": 0.4884097732193856,
+      "body_x": 0.34666207156176243,
+      "body_y": 0.4884097732193856,
+      "area_pixel2": 408.1023277421241,
+      "radius_pixel": 32.168218026192534,
+      "bbox_xywh": [
+        333,
+        478,
+        45,
+        45
+      ]
+    },
+    {
+      "annotation_id": "S099-03",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 519.5015999889212,
+      "y_pixel": 351.9588171781649,
+      "x_normalized": 0.5073257812391808,
+      "y_normalized": 0.34370978240055167,
+      "body_x": 0.5073257812391808,
+      "body_y": 0.34370978240055167,
+      "area_pixel2": 578.6295786888542,
+      "radius_pixel": 47.27110048238777,
+      "bbox_xywh": [
+        500,
+        309,
+        40,
+        86
+      ]
+    },
+    {
+      "annotation_id": "S099-04",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 553.0392649746447,
+      "y_pixel": 455.54292853808204,
+      "x_normalized": 0.5400774072018014,
+      "y_normalized": 0.44486614115047074,
+      "body_x": 0.5400774072018014,
+      "body_y": 0.44486614115047074,
+      "area_pixel2": 575.8929327358475,
+      "radius_pixel": 47.27110048238777,
+      "bbox_xywh": [
+        533,
+        413,
+        40,
+        86
+      ]
+    },
+    {
+      "annotation_id": "S099-05",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 413.24388746671326,
+      "y_pixel": 555.8604280454632,
+      "x_normalized": 0.40355848385421217,
+      "y_normalized": 0.5428324492631477,
+      "body_x": 0.40355848385421217,
+      "body_y": 0.5428324492631477,
+      "area_pixel2": 579.3137401771057,
+      "radius_pixel": 47.27110048238777,
+      "bbox_xywh": [
+        393,
+        513,
+        40,
+        86
+      ]
+    }
+  ]
+}

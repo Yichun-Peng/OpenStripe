@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S053",
+  "identity_id": "T14",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S053.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "1c913904f97f8022afe8599fef31f32660f5982b2febb0c764c365ca7ca7397c",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S053-01",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 720.177711618123,
+      "y_pixel": 359.675639569835,
+      "x_normalized": 0.7032985465020732,
+      "y_normalized": 0.351245741767417,
+      "body_x": 0.7032985465020732,
+      "body_y": 0.351245741767417,
+      "area_pixel2": 3922.987257608157,
+      "radius_pixel": 116.83715201075555,
+      "bbox_xywh": [
+        682,
+        250,
+        77,
+        220
+      ]
+    },
+    {
+      "annotation_id": "S053-02",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 545.7516772372053,
+      "y_pixel": 315.97678237912993,
+      "x_normalized": 0.5329606223019583,
+      "y_normalized": 0.30857107654211907,
+      "body_x": 0.5329606223019583,
+      "body_y": 0.30857107654211907,
+      "area_pixel2": 1107.2673991171075,
+      "radius_pixel": 53.35725067788553,
+      "bbox_xywh": [
+        518,
+        271,
+        56,
+        91
+      ]
+    },
+    {
+      "annotation_id": "S053-03",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 484.408469300189,
+      "y_pixel": 382.7598521518192,
+      "x_normalized": 0.4730551458009658,
+      "y_normalized": 0.3737889181170109,
+      "body_x": 0.4730551458009658,
+      "body_y": 0.3737889181170109,
+      "area_pixel2": 2966.299167368938,
+      "radius_pixel": 115.54545480275937,
+      "bbox_xywh": [
+        445,
+        274,
+        78,
+        217
+      ]
+    },
+    {
+      "annotation_id": "S053-04",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 613.4044674694993,
+      "y_pixel": 403.9956178932754,
+      "x_normalized": 0.5990278002631829,
+      "y_normalized": 0.39452697059890174,
+      "body_x": 0.5990278002631829,
+      "body_y": 0.39452697059890174,
+      "area_pixel2": 1102.1726104708632,
+      "radius_pixel": 53.161945784529166,
+      "bbox_xywh": [
+        586,
+        359,
+        55,
+        91
+      ]
+    },
+    {
+      "annotation_id": "S053-05",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 550.945241232818,
+      "y_pixel": 426.4462746047359,
+      "x_normalized": 0.5380324621414239,
+      "y_normalized": 0.4164514400436874,
+      "body_x": 0.5380324621414239,
+      "body_y": 0.4164514400436874,
+      "area_pixel2": 1463.9026043542126,
+      "radius_pixel": 70.85441498768058,
+      "bbox_xywh": [
+        511,
+        369,
+        81,
+        117
+      ]
+    }
+  ]
+}

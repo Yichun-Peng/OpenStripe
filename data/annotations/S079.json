@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S079",
+  "identity_id": "T23",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S079.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "0d3e59c7bdcc3d0aa4294c57ad5032e85691f3703e1d11ac52fa7376602ea8cf",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S079-01",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 744.1309004498864,
+      "y_pixel": 373.9571624064213,
+      "x_normalized": 0.7266903324705922,
+      "y_normalized": 0.3651925414125208,
+      "body_x": 0.7266903324705922,
+      "body_y": 0.3651925414125208,
+      "area_pixel2": 1529.8710538951623,
+      "radius_pixel": 64.96742123590839,
+      "bbox_xywh": [
+        708,
+        320,
+        73,
+        108
+      ]
+    },
+    {
+      "annotation_id": "S079-02",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 597.1923188800017,
+      "y_pixel": 409.7036073842651,
+      "x_normalized": 0.5831956239062517,
+      "y_normalized": 0.4001011790861964,
+      "body_x": 0.5831956239062517,
+      "body_y": 0.4001011790861964,
+      "area_pixel2": 1231.1610691600035,
+      "radius_pixel": 53.94655279836675,
+      "bbox_xywh": [
+        570,
+        364,
+        55,
+        93
+      ]
+    },
+    {
+      "annotation_id": "S079-03",
+      "type": "I",
+      "marker_type": "irregular",
+      "x_pixel": 532.1240863538914,
+      "y_pixel": 419.0782669392232,
+      "x_normalized": 0.519652428079972,
+      "y_normalized": 0.4092561200578352,
+      "body_x": 0.519652428079972,
+      "body_y": 0.4092561200578352,
+      "area_pixel2": 1553.0414300695875,
+      "radius_pixel": 64.96742123590839,
+      "bbox_xywh": [
+        496,
+        366,
+        73,
+        108
+      ]
+    },
+    {
+      "annotation_id": "S079-04",
+      "type": "I",
+      "marker_type": "irregular",
+      "x_pixel": 462.0159623742245,
+      "y_pixel": 451.6540323985805,
+      "x_normalized": 0.4511874632560786,
+      "y_normalized": 0.4410683910142388,
+      "body_x": 0.4511874632560786,
+      "body_y": 0.4410683910142388,
+      "area_pixel2": 1544.2742607062914,
+      "radius_pixel": 65.07577057295244,
+      "bbox_xywh": [
+        427,
+        398,
+        72,
+        108
+      ]
+    },
+    {
+      "annotation_id": "S079-05",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 587.226183599226,
+      "y_pixel": 489.5386667127586,
+      "x_normalized": 0.5734630699211192,
+      "y_normalized": 0.4780651042116783,
+      "body_x": 0.5734630699211192,
+      "body_y": 0.4780651042116783,
+      "area_pixel2": 1063.958624874286,
+      "radius_pixel": 48.07866612740489,
+      "bbox_xywh": [
+        557,
+        453,
+        61,
+        74
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S087",
+  "identity_id": "T24",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S087.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "8e9cc43188f6815df89d18498af7c50b8c5ebfb23cefb92c458b9a27059d87ea",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S087-01",
+      "type": "B",
+      "marker_type": "breakpoint",
+      "x_pixel": 478.784247648819,
+      "y_pixel": 436.8289636830658,
+      "x_normalized": 0.4675627418445498,
+      "y_normalized": 0.42659078484674395,
+      "body_x": 0.4675627418445498,
+      "body_y": 0.42659078484674395,
+      "area_pixel2": 980.8923464078213,
+      "radius_pixel": 49.7318402576671,
+      "bbox_xywh": [
+        444,
+        402,
+        70,
+        70
+      ]
+    },
+    {
+      "annotation_id": "S087-02",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 511.3755031785153,
+      "y_pixel": 326.6855096392365,
+      "x_normalized": 0.49939013982276886,
+      "y_normalized": 0.3190288180070669,
+      "body_x": 0.49939013982276886,
+      "body_y": 0.3190288180070669,
+      "area_pixel2": 822.2675654310046,
+      "radius_pixel": 43.98666623886993,
+      "bbox_xywh": [
+        489,
+        289,
+        45,
+        75
+      ]
+    },
+    {
+      "annotation_id": "S087-03",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 558.5496212139249,
+      "y_pixel": 354.2066545086891,
+      "x_normalized": 0.5454586144667235,
+      "y_normalized": 0.3459049360436417,
+      "body_x": 0.5454586144667235,
+      "body_y": 0.3459049360436417,
+      "area_pixel2": 826.4309455091364,
+      "radius_pixel": 43.98666623886993,
+      "bbox_xywh": [
+        536,
+        317,
+        45,
+        75
+      ]
+    },
+    {
+      "annotation_id": "S087-04",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 764.586589004569,
+      "y_pixel": 425.21972470657084,
+      "x_normalized": 0.7466665908247744,
+      "y_normalized": 0.4152536374087606,
+      "body_x": 0.7466665908247744,
+      "body_y": 0.4152536374087606,
+      "area_pixel2": 830.1779875794548,
+      "radius_pixel": 44.15317340333709,
+      "bbox_xywh": [
+        742,
+        388,
+        46,
+        75
+      ]
+    },
+    {
+      "annotation_id": "S087-05",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 713.2935748114724,
+      "y_pixel": 508.4729556680286,
+      "x_normalized": 0.6965757566518285,
+      "y_normalized": 0.49655562076955917,
+      "body_x": 0.6965757566518285,
+      "body_y": 0.49655562076955917,
+      "area_pixel2": 826.0146075013232,
+      "radius_pixel": 43.98666623886993,
+      "bbox_xywh": [
+        691,
+        471,
+        45,
+        75
+      ]
+    }
+  ]
+}

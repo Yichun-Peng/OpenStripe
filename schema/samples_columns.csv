@@ -1,0 +1,18 @@
+column,description
+sample_id,Stable sample identifier S001–S100; original fixed cohort order.
+identity_id,Reference identity alias T01–T28.
+common_bw_image,Release-relative common-BW image path.
+src_image,Release-relative original-resolution full-body SRC image path.
+annotation,Release-relative same-stem primary annotation JSON.
+width,Common-BW canvas width in pixels.
+height,Common-BW canvas height in pixels.
+src_width,Full-body SRC canvas width in pixels.
+src_height,Full-body SRC canvas height in pixels.
+base_origin,Archived preparation role: strictly_aligned_unannotated or shared_annotation_inpaint.
+primary_B_count,Primary-parser breakpoint component count.
+primary_F_count,Primary-parser bifurcation component count.
+primary_I_count,Primary-parser irregular component count.
+primary_C_count,Primary-parser round component count.
+common_bw_sha256,SHA-256 of released common-BW PNG; equals archived main-analysis input.
+src_sha256,SHA-256 of released SRC PNG; equals archived original-resolution morphology input.
+annotation_sha256,SHA-256 of paired primary JSON.

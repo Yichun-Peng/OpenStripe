@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S069",
+  "identity_id": "T20",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S069.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "515679874260f672b3410ec2ceaa73bba6961d8e5a667abe22b32cef53f89933",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S069-01",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 689.8535643971354,
+      "y_pixel": 435.50232887339394,
+      "x_normalized": 0.6736851214815776,
+      "y_normalized": 0.42529524304042376,
+      "body_x": 0.6736851214815776,
+      "body_y": 0.42529524304042376,
+      "area_pixel2": 2808.5907893054728,
+      "radius_pixel": 99.4818114510569,
+      "bbox_xywh": [
+        656,
+        342,
+        69,
+        187
+      ]
+    },
+    {
+      "annotation_id": "S069-02",
+      "type": "F",
+      "marker_type": "bifurcation",
+      "x_pixel": 733.9670485298733,
+      "y_pixel": 479.5631360632358,
+      "x_normalized": 0.7167646958299544,
+      "y_normalized": 0.4683233750617537,
+      "body_x": 0.7167646958299544,
+      "body_y": 0.4683233750617537,
+      "area_pixel2": 2793.7990010800327,
+      "radius_pixel": 99.4818114510569,
+      "bbox_xywh": [
+        700,
+        387,
+        69,
+        187
+      ]
+    },
+    {
+      "annotation_id": "S069-03",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 599.4754055216341,
+      "y_pixel": 435.5443286424612,
+      "x_normalized": 0.5854252007047208,
+      "y_normalized": 0.4253362584399035,
+      "body_x": 0.5854252007047208,
+      "body_y": 0.4253362584399035,
+      "area_pixel2": 2190.109144129251,
+      "radius_pixel": 81.69941515537259,
+      "bbox_xywh": [
+        563,
+        362,
+        73,
+        146
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "sample_id": "S004",
+  "identity_id": "T01",
+  "source_version": "main_clustering_components316",
+  "image": {
+    "file": "data/images_unannotated/S004.png",
+    "width": 1024,
+    "height": 1024,
+    "sha256": "c8ae14876d7974f20cbca89778b48d6a43560af7255fe998a129a044c29c2478",
+    "representation": "common-BW unmarked stripe canvas",
+    "base_origin": "shared_annotation_inpaint"
+  },
+  "coordinate_system": {
+    "origin": "top-left pixel center",
+    "x_direction": "right",
+    "y_direction": "down",
+    "pixel_indexing": "zero-based continuous coordinates",
+    "normalization": "x_pixel / width; y_pixel / height",
+    "annotation_to_public_image_transform": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "body_bbox_xyxy": [
+      29,
+      288,
+      1024,
+      759
+    ],
+    "body_bbox_bounds": "upper bounds exclusive",
+    "body_normalization": "(x_pixel-x0)/(x1-x0); (y_pixel-y0)/(y1-y0)"
+  },
+  "source_provenance": {
+    "marker_table_sha256": "17ad076b62a31ee8a5f4efccd7fe6cc716d88827ff305cb406518c31eb18df23",
+    "point_geometry_sha256": "0010b0d3e7f297e6eefe938d4a4821e4f3243c38bbbe22fd55601be6337c9530",
+    "original_canvas_width": 1024,
+    "original_canvas_height": 1024,
+    "labels_changed": false,
+    "coordinates_changed": false,
+    "source_canvas": "processed annotation canvas before color removal; same canvas as common-BW",
+    "not_mapped_to_SRC": true
+  },
+  "annotations": [
+    {
+      "annotation_id": "S004-01",
+      "type": "C",
+      "marker_type": "round",
+      "x_pixel": 514.5358086868264,
+      "y_pixel": 426.7867304505519,
+      "x_normalized": 0.5024763756707289,
+      "y_normalized": 0.4167839164556171,
+      "body_x": 0.48797568712243855,
+      "body_y": 0.29466397123259425,
+      "area_pixel2": 2678.456117752821,
+      "radius_pixel": 82.65323932383295,
+      "bbox_xywh": [
+        480,
+        353,
+        69,
+        150
+      ]
+    }
+  ]
+}
